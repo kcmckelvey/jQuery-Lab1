@@ -15,15 +15,6 @@
 $('#btnSubmit').click(function (e) {
     alert($(':text').val())
     e.preventDefault()
-    //$(':text').val().appendTo('h2')
-    //('h2').appendTo('div')
-   // let typingText = ($(':text').val())
-    // let h2 = $("<h2>" + typingText + "</h2>")
-    // h2.appendTo('div')
-    // $('h2').hover (function() {
-    //     $('h2').css("background-color" , "red")
-    //     console.log('hoverthis')
-    // })
     let typingListItems = $(':text').val()
     let theListItems = $("<li>" + typingListItems + "</li>")
     theListItems.appendTo(unorderedList)
