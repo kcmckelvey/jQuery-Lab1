@@ -43,15 +43,12 @@ unorderedList.appendTo('body')
 
 let colorArray= ['red', 'blue', 'pink', 'green','mintcream', 'yellow', 'orange']
 
-//theListItems = $('<li></li')
+
 
 function randomColor(){
     let randomListColor = Math.floor(Math.random()* colorArray.length)
     return colorArray[randomListColor]
 }
 
-//unorderedList.addEventListener("click", function() {
-    //theListItems.style.color = randomColor()
-   // unorderedList.style.color = randomColor()
-//})
+ 
 
